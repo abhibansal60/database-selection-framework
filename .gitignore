@@ -83,7 +83,6 @@ temp/
 *.json.backup
 *.md.backup
 session_*.json
-adr_*.md
 
 # Database files
 *.db
