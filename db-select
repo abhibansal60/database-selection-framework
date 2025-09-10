@@ -1,0 +1,13 @@
+#!/bin/bash
+"""
+Database Selection Framework - Easy Launch Script
+
+Simple wrapper for the database selection framework CLI
+"""
+
+# Default to assess command if no arguments
+if [ $# -eq 0 ]; then
+    python3 database_selector.py assess
+else
+    python3 database_selector.py "$@"
+fi

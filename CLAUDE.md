@@ -19,14 +19,14 @@
 
 **Migration Journey:**
 - **Current State**: SharePoint-based approach (legacy)
-- **Attempted Solution**: ServiceNow evaluation (6-7 months)
-- **ServiceNow Failure**: Customization limitations + maintenance overhead warnings
+- **Attempted Solution**: previous platform evaluation (6-7 months)
+- **previous platform Failure**: Customization limitations + maintenance overhead warnings
 - **Chosen Path**: Custom application development
 
-**Key ServiceNow Pain Points:**
+**Key previous platform Pain Points:**
 1. **Out-of-box rigidity** - Had to use standard workflows
 2. **Customization warnings** - Team advised against customizations due to maintenance burden
-3. **Service Portfolio Management (SPM)** - Couldn't implement required business logic
+3. **Service Portfolio Management (business logic)** - Couldn't implement required business logic
 4. **Platform limitations** - Unable to adapt to actual business needs
 
 ### Framework Requirements
@@ -51,8 +51,8 @@
 
 ### Technical Context
 
-**Primary Concerns (Informed by ServiceNow Experience):**
-1. **Customization Freedom** - Must avoid another "ServiceNow situation"
+**Primary Concerns (Informed by previous platform Experience):**
+1. **Customization Freedom** - Must avoid another "previous platform situation"
 2. **Schema Evolution** - Ability to change data structures without platform constraints
 3. **Business Logic Implementation** - No limitations on complex requirements
 4. **Long-term Maintenance** - Sustainable development and operations
@@ -74,7 +74,7 @@
 3. **Scenario-Based** - Present archetypal situations for identification
 
 ### Key Decision Factors (To Be Refined)
-- **Flexibility vs Structure** (ServiceNow trauma response)
+- **Flexibility vs Structure** (previous platform trauma response)
 - **Query Complexity Requirements**
 - **Team Expertise and Learning Curve**
 - **Integration and Ecosystem Needs**
@@ -103,7 +103,7 @@
    - Generate ADR template system
 
 3. **Validate Against Context**
-   - Test against ServiceNow pain points
+   - Test against previous platform pain points
    - Ensure team consensus capabilities
    - Verify stakeholder communication readiness
 
@@ -127,7 +127,7 @@
 - HOW the decision process led to recommendation
 
 **Risk Mitigation:**
-- Avoid another "ServiceNow situation" of platform limitations
+- Avoid another "previous platform situation" of platform limitations
 - Ensure long-term customization and maintenance viability
 - Validate against actual business requirements (not theoretical)
 

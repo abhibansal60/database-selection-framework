@@ -1,0 +1,25 @@
+# Database Selection Framework Dependencies
+# 
+# This framework uses only Python standard library modules for maximum portability
+# and to avoid dependency management issues (learning from previous platform complexity)
+
+# No external dependencies required!
+# 
+# The framework intentionally uses only built-in Python modules:
+# - json (for session storage)
+# - datetime (for timestamps)
+# - os, sys (for file operations)
+# - dataclasses (for structured data)
+# - typing (for type hints)
+# - enum (for choice definitions)
+#
+# This design choice ensures:
+# 1. Easy deployment without dependency conflicts
+# 2. No version compatibility issues
+# 3. Minimal maintenance burden
+# 4. Fast startup and execution
+# 5. No external service dependencies
+
+# For development/testing (optional):
+# pytest>=6.0.0
+# mypy>=0.910
